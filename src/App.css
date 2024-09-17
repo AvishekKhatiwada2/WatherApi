@@ -1,0 +1,164 @@
+.heading {
+  font-size: 30px;
+  color: #FFF;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.newsImage {
+  height: 48vh;
+  width: 45vw;
+  padding: 1rem;
+}
+
+.breakingNewsContainer {
+  height: 54.2vh;
+  max-width: 87.1vh;
+  padding: 1vh;
+}
+
+.breakingNewsHeading {
+  font-size: 3vh;
+  color: #f51212;
+  padding: 0 0 0 1vh;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hoursElement,
+.minutesEmelent,
+.secondElement {
+  background: rgb(253, 187, 45);
+  background: linear-gradient(0deg, rgba(253, 187, 45, 1) 0%, rgba(77, 34, 195, 1) 100%);
+  backdrop-filter: blur(100px);
+  padding: 2px;
+  color: #f3f4f5;
+}
+
+.timerheading {
+  font-weight: 700;
+  font-size: x-small;
+}
+
+.timer {
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.Headingdata {
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #406f9e;
+}
+
+.current-temperature-title, .hourly-temperature-title {
+  background-color: #fff;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  justify-content: space-between;
+  letter-spacing: .5px;
+  margin-bottom: 1px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+.temp-full-details{
+  padding: 1vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+  flex: 1;
+}
+.weatherIcon{
+  border-radius: 10%;
+  padding: 2px;
+  max-width: 15vh;
+}
+.current-temperature{
+  font-size: 50px;
+  letter-spacing: -3px;
+  font-weight: 600;
+}
+.TemperatureValue{
+  padding: 0 4px 0 4px;
+}
+.FeelsLike{
+  font-size: small;
+  font-weight: 400;
+}
+.feelsLikeValue{
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+.belowText{
+  font-weight: 500;
+}
+.moreDetails{
+  font-size: small;
+}
+.icon-chevron{
+  transform: rotate(-90deg);
+  margin-top: 7px;
+  margin-left: 2px;
+}
+.right-div ul li{
+  font-size: larger;
+
+}
+.left-div{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  justify-content: center;
+}
+.right-div{
+  display: flex;
+  flex-direction: column;
+  flex:0.7;
+  justify-content: center;
+}
+.left-div-content{
+  display: flex;
+  align-items: flex-start;
+  gap:1vw;
+}
+.TemperatureValue{
+  display: flex;
+  flex-direction: column;
+
+}
+.left-div-below-content{
+  margin-top: 5vh;
+  padding-left: 12px;
+}
+/* .hourly-weatherGrid{
+  width: 100%;
+  max-width: 786px;
+  height: 150px;
+  overflow-y: auto;
+} */
+.hourly-weatherGrid div{
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.hourly-weatherGrid div img{
+  max-width: 4vw;
+}
+.hourlyConditionText{
+  font-size: 12px;
+}
+.hourlyTime{
+  font-weight: 500;
+  font-size: smaller;
+}
+.hourlyTemprature{
+  font-weight: 700;
+  letter-spacing: -1px;
+}
